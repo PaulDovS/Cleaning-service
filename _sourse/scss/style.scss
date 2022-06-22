@@ -5,3 +5,90 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+._container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    // header 
+    .header {
+        box-shadow: 0 0 20px 0 rgba(148, 148, 148, 0.25);
+        .header__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .container__header-logo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 340px;
+                img {
+                    width: 162px;
+                    height: 30px;
+                }
+                p {
+                    max-width: 155px;
+                    height: 28px;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 12px;
+                    line-height: 14.09px;
+                }
+            }
+            .container__navigation-links {
+                display: flex;
+                align-items: center;
+                .container__social-links {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 115px;
+                    svg:last-child {
+                        padding-left: 17px;
+                    }
+                }
+                .container__message-links {
+                    display: flex;
+                    align-items: center;
+                    .whatsapp-link {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            font-family: 'Montserrat',sans-serif;
+                            font-size: 12px;
+                            line-height: 14.69px;
+                            color: #C4C4C4;
+                            padding: 0 8px;
+                        }
+                    }
+                    .viber-link {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            font-family: 'Montserrat',sans-serif;
+                            font-size: 12px;
+                            line-height: 14.69px;
+                            color: #C4C4C4;
+                            padding: 0 8px;
+                        }
+                    }
+                }
+            }
+            .container__phone {
+                img {
+                    padding: 13.33px;
+                    background: linear-gradient(#1D4FCF 0% #0586E8 100%);
+                    border-radius: 100px;
+                    border: 1px solid #E5E5E5;
+                    cursor: pointer;
+                    &:hover {
+                        transform: rotateZ(90deg);
+                        transition: 1s easeInSine;
+                    }
+                }
+            }
+        }
+    }
+}
