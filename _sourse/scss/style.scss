@@ -77,6 +77,10 @@
                 }
             }
             .container__phone {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 209px;
                 img {
                     padding: 13.33px;
                     background: linear-gradient(#1D4FCF 0% #0586E8 100%);
@@ -84,11 +88,22 @@
                     border: 1px solid #E5E5E5;
                     cursor: pointer;
                     &:hover {
+                        transition: margin-left 2s;
                         transform: rotateZ(90deg);
-                        transition: 1s easeInSine;
                     }
                 }
             }
         }
     }
+    // main
+    .main {
+        .main__container {
+
+        }
+    }
 }
+
+
+
+
+
