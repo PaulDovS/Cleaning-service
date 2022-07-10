@@ -197,7 +197,7 @@
                     z-index: 3;
                     .container__discount {
                         max-width: 654px;
-                        margin: 0 auto;
+                        margin: 9px auto;
                         display: flex;
                         justify-content: space-around;
                         align-items: center;
@@ -211,9 +211,226 @@
                                     color: rgba(5, 134, 232, 1);
                                 }
                             }
+                            .container__input {
+                                font-size: 12px;
+                                font-family: 'Raleway';
+                                color: #656565;
+                                line-height: 14.4px;
+                            }
                         }
                         .container__discount-tel {
-
+                            .input__tel {
+                                max-width: 277px;
+                                height: 50px;
+                                input {
+                                    font-family: 'Raleway';
+                                    font-size: 14px;
+                                    line-height: 16.44px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .container__list-works {
+            padding-top: 60px;
+            h3 {
+                color: #0586E8;
+                font-size: 30px;
+                font-family: 'Raleway';
+                line-height: 35.22px;
+                letter-spacing: 2px;
+                font-weight: 800;
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                .list-works {
+                    display: flex;
+                    align-items: center;
+                    box-shadow: 0 0 30px 0 rgba(141, 149, 165, 0.23);
+                    padding: 15px 20px 15px 20px;
+                    border-radius: 20px;
+                    p {
+                    padding-left: 16px;
+                    }
+                }
+            }
+        }
+        .container__technic {
+            padding-top: 140px;
+            .container__technic-special {
+                h3 {
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 35.22px;
+                    letter-spacing: 2px;
+                    color: #0586E8;
+                    text-align: center;
+                }
+                .container__slide {
+                    display: flex;
+                    justify-content: space-between;
+                    .container__vehicle {
+                        box-shadow: 0 0 30px 0 rgba(141, 149, 165, 0.23);
+                        border-radius: 20px;
+                        min-width: 278px;
+                        min-height: 360px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img {
+                            padding-top: 39px;
+                            width: 220px;
+                            height: 184px;
+                        }
+                        p {
+                            padding-top: 30px;
+                            max-width: 182px;
+                            min-height: 38px;
+                            text-align: center;
+                            font-family: 'Raleway';
+                            font-size: 16px;
+                            line-height: 18.78px;
+                            color: #000000;
+                            font-weight: 600;
+                        }
+                        span {
+                            font-family: 'Raleway';
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 23.48px;
+                            text-align: center;
+                            color: #0586E8;
+                        }
+                    }
+                }
+            }
+        }
+        .container__price {
+            padding-top: 140px;
+            .container__price-header {
+                h3 {
+                    font-family: 'Raleway';
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 35.22px;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    color: #0586E8;
+                }
+                .container__price-conditions {
+                    margin-top: 58px;
+                    box-shadow: 0 0 30px 0 rgba(141, 149, 165, 0.23);
+                    border-radius: 20px;
+                    ul {
+                        border-radius: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding: 0;
+                        min-height: 64px;
+                        li {
+                            font-family: 'Raleway';
+                            font-size: 16px;
+                            line-height: 18.78px;
+                            text-align: center;
+                            font-weight: 600;
+                        }
+                    }
+                    .head__price {
+                        box-shadow: 0 4px 4px 0 rgba(141, 149, 165, 0.1);
+                        border-radius: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding: 0;
+                        min-height: 64px;
+                        li {
+                            color: #0586E8;
+                        }
+                    }
+                }
+            }
+        }
+        .btn__order {
+            padding-top: 40px;
+            text-align: center;
+            .order {
+                background-color: #0586E8;
+                border: transparent;
+                border-radius: 10px;
+                color: #ffffff;
+                padding: 15px 103px;
+                &:hover {
+                    background-color: #ffffff;
+                    color: #0586E8;
+                    border: 1px solid #0586E8;
+                }
+            }
+        }
+        .container__our-work {
+            padding-top: 70px;
+            .container__description-work {
+                h3 {
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 35.22px;
+                    letter-spacing: 2px;
+                    color: #0586E8;
+                    text-align: center;
+                }
+                .container__box {
+                display: flex;
+                justify-content: space-around;    
+                .container__our-description {
+                        margin-top: 58px;
+                        display: flex;
+                        max-width: 585px;
+                        min-height: 360px;
+                        border-radius: 20px;
+                        box-shadow: 0 0 30px 0 rgba(141, 149, 165, 0.23);
+                        img {
+                            width: 292px;
+                            height: 360px;
+                            border-radius: 20px;
+                        }
+                    }
+                    .container__description-our-work {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        span {
+                            color:#0586E8;
+                            font-family: 'Raleway';
+                            font-size: 20px;
+                            line-height: 23.48px;
+                            font-weight: 700;
+                            padding-top: 48px;
+                            padding-left: 30px;
+                        }
+                        h4 {
+                            font-family: 'Raleway';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 18.78px;
+                            max-width: 177px;
+                            min-height: 38px;
+                            padding-left: 30px;
+                        }
+                        ul {
+                            li{
+                                font-family: 'Raleway';
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 16.44px;
+                                list-style: disc;
+                                padding: 5px;
+                            }
                         }
                     }
                 }
