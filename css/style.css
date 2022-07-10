@@ -35,11 +35,12 @@
         width: 162px;
         height: 30px; }
       .wrapper .header .header__container .container__header-logo p {
-        max-width: 155px;
+        max-width: 160px;
         height: 28px;
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
-        line-height: 14.09px; }
+        line-height: 14.09px;
+        padding-left: 20px; }
     .wrapper .header .header__container .container__navigation-links {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -373,7 +374,7 @@
   text-align: center; }
   .wrapper .main .btn__order .order {
     background-color: #0586E8;
-    border: transparent;
+    border: 1px solid transparent;
     border-radius: 10px;
     color: #ffffff;
     padding: 15px 103px; }
@@ -446,3 +447,149 @@
         line-height: 16.44px;
         list-style: disc;
         padding: 5px; }
+
+.wrapper .footer {
+  padding-top: 90px; }
+  .wrapper .footer .container__footer {
+    -webkit-box-shadow: 0 -10px 20px 0 rgba(148, 148, 148, 0.25);
+    box-shadow: 0 -10px 20px 0 rgba(148, 148, 148, 0.25); }
+    .wrapper .footer .container__footer .container__footer-head .container__navigation {
+      padding-top: 31px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .wrapper .footer .container__footer .container__footer-head .container__navigation .container__footer-logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .wrapper .footer .container__footer .container__footer-head .container__navigation .container__footer-logo p {
+          padding-left: 20px;
+          max-width: 160px;
+          font-family: 'Raleway';
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14.09px; }
+      .wrapper .footer .container__footer .container__footer-head .container__navigation .container__phones {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        max-width: 209px; }
+        .wrapper .footer .container__footer .container__footer-head .container__navigation .container__phones img {
+          padding: 13.33px;
+          background: -webkit-gradient(linear, left top, left bottom, from(#1D4FCF));
+          background: -webkit-linear-gradient(#1D4FCF 0% #0586E8 100%);
+          background: -o-linear-gradient(#1D4FCF 0% #0586E8 100%);
+          background: linear-gradient(#1D4FCF 0% #0586E8 100%);
+          border-radius: 100px;
+          border: 1px solid #E5E5E5;
+          cursor: pointer;
+          margin-right: 21px; }
+          .wrapper .footer .container__footer .container__footer-head .container__navigation .container__phones img:hover {
+            -webkit-transition: margin-left 2s;
+            -o-transition: margin-left 2s;
+            transition: margin-left 2s;
+            -webkit-transform: rotateZ(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotateZ(90deg); }
+        .wrapper .footer .container__footer .container__footer-head .container__navigation .container__phones .container__phone-number a {
+          color: black;
+          font-family: sans-serif;
+          font-size: 18px;
+          line-height: 21.33px;
+          font-weight: bold; }
+        .wrapper .footer .container__footer .container__footer-head .container__navigation .container__phones .container__phone-number p {
+          font-family: 'Raleway', sans-serif;
+          color: #000000;
+          font-size: 14px;
+          line-height: 16.44px;
+          margin: 0; }
+    .wrapper .footer .container__footer .container__footer-head .container__icons-socials {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-top: 18px; }
+      .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 59px;
+        height: 22px;
+        cursor: pointer; }
+      .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__message {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 166px;
+        height: 18px; }
+        .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__message .link-whatsapp {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          cursor: pointer; }
+          .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__message .link-whatsapp P {
+            color: #C4C4C4; }
+        .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__message .link-viber {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          cursor: pointer; }
+          .wrapper .footer .container__footer .container__footer-head .container__icons-socials .container__message .link-viber p {
+            color: #C4C4C4; }
+    .wrapper .footer .container__footer .container__footer-head .container__political {
+      padding-top: 40px;
+      padding-bottom: 31px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .wrapper .footer .container__footer .container__footer-head .container__political p {
+        font-size: 12px;
+        font-family: 'Raleway';
+        line-height: 14.09px;
+        font-weight: 400;
+        max-width: 215px;
+        color: black; }

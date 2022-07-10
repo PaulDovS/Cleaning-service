@@ -31,11 +31,12 @@
                     height: 30px;
                 }
                 p {
-                    max-width: 155px;
+                    max-width: 160px;
                     height: 28px;
                     font-family: 'Raleway', sans-serif;
                     font-size: 12px;
                     line-height: 14.09px;
+                    padding-left: 20px;
                 }
             }
             .container__navigation-links {
@@ -361,7 +362,7 @@
             text-align: center;
             .order {
                 background-color: #0586E8;
-                border: transparent;
+                border: 1px solid transparent;
                 border-radius: 10px;
                 color: #ffffff;
                 padding: 15px 103px;
@@ -433,6 +434,119 @@
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    .footer {
+        padding-top: 90px;
+        .container__footer {
+            box-shadow: 0 -10px 20px 0 rgba(148, 148, 148, 0.25);
+            .container__footer-head {
+                .container__navigation {
+                    padding-top: 31px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .container__footer-logo {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        p {
+                            padding-left: 20px;
+                            max-width: 160px;
+                            font-family: 'Raleway';
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 14.09px;
+                        }
+                    }
+                    .container__phones {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        max-width: 209px;
+                        img {
+                            padding: 13.33px;
+                            background: linear-gradient(#1D4FCF 0% #0586E8 100%);
+                            border-radius: 100px;
+                            border: 1px solid #E5E5E5;
+                            cursor: pointer;
+                            margin-right: 21px;
+                            &:hover {
+                                transition: margin-left 2s;
+                                transform: rotateZ(90deg);
+                            }
+                        }
+                        .container__phone-number {
+                            a {
+                                color: rgba(0, 0, 0, 1);
+                                font-family:sans-serif;
+                                font-size: 18px;
+                                line-height: 21.33px;
+                                font-weight: bold;
+
+                            }
+                            p {
+                                font-family: 'Raleway', sans-serif;
+                                color: #000000;
+                                font-size: 14px;
+                                line-height: 16.44px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .container__icons-socials {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-top: 18px;
+                    .container__social {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 59px;
+                        height: 22px;
+                        cursor: pointer;
+                    }
+                    .container__message {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 166px;
+                        height: 18px;
+                        .link-whatsapp {
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                            P {
+                                color: #C4C4C4;
+                            }
+                        }
+                        .link-viber {
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                            p {
+                                color: #C4C4C4;
+                            }
+                        }
+                    }
+                }
+                .container__political {
+                    padding-top: 40px;
+                    padding-bottom: 31px;
+                    display: flex;
+                    justify-content: space-between;
+                   p {
+                    font-size: 12px;
+                    font-family: 'Raleway';
+                    line-height: 14.09px;
+                    font-weight: 400;
+                    max-width: 215px;
+                    color: rgba(0, 0, 0, 1);
+                   } 
                 }
             }
         }
